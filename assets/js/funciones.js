@@ -29,5 +29,29 @@ function dataPersonal(){
     document.getElementById('email').innerHTML = persona.email;
     document.getElementById('perfil').innerHTML = persona.perfil;
 
+    // Variable para iterar elementos:
+    let empleos = persona.cargos.map(function(item){
+        return item;
+    })
+    document.getElementById('cargos').innerHTML = empleos;
     
+    // Manejo de habilidades: 
+    let comunicativas = persona.competencias.comunicativas.map(( item )=>{
+        return '<li class="list-group-item">'+item+'</li>';
+    })
+    let gestion = persona.competencias.gestion.map(( item )=>{
+        return '<li class="list-group-item">'+item+'</li>';
+    })
+    let informatica = persona.competencias.informaticas.map(( item )=>{
+        return '<li class="list-group-item">'+item+'</li>';
+    })
+    document.getElementById('comunicativas').innerHTML = comunicativas;
+    document.getElementById('gestion').innerHTML = gestion;
+    document.getElementById('informatica').innerHTML = informatica;
+
+    // Json de Estudios:
+    document.getElementById('posgrado').innerHTML = persona.estudios.posgrado;
+    document.getElementById('pregrado').innerHTML = persona.estudios.pregrado;
+    document.getElementById('tecnico').innerHTML = persona.estudios.tecnico;
+    document.getElementById('bachiller').innerHTML =   persona.estudios.bachillerato;
 }
