@@ -8,3 +8,6 @@ header {
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+.justificado {
+    text-align: justify;
+}

@@ -2,8 +2,8 @@
 [Visita mi page desde aquí https://vieweder.github.io/ederpage/](https://vieweder.github.io/ederpage/)
 
 ## Recursos:
-[Estilos CSS](https://gist.github.com/viewEder/c04f08dbb394c1f34e696cded16a2560)
-[Funciones JS]()
+[Estilos CSS](https://gist.github.com/viewEder/c04f08dbb394c1f34e696cded16a2560)  
+[Funciones JS](https://gist.github.com/viewEder/b544db51d6fe3f991d517eb275d81134)  
 
 ## Comandos Usados en Git:
 git init : Inicializa el proyecto, debe hacerse en la raiz del aplicativo que deseamos subir  
