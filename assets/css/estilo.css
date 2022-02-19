@@ -1,12 +1,17 @@
 .wrapper {
-    width: 860px;
+    width: 1024px;
     margin: 0 auto;
 }
 header {
-    width: 270px;
+    width: 280px;
     float: left;
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
+}
+.perfil {
+    width: 700px;
+    float: right;
+    padding-bottom: 50px;
 }
 .justificado {
     text-align: justify;
