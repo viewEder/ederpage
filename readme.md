@@ -13,6 +13,6 @@ git commit -m : Es el checkpoint de las versiones del aplicativo, se deben hacer
 git push -u origin main : Es el comando para subir los archivos para el repositorio  
 git branch "nombrerama" : Es el comando para crear una rama en nuestro repositorio  
 git checkout "nombrerama": Hace el cambio de una rama a la rama "nombrerama"  
-git diff : se usa para ver cambios entre el ultimo commit con lo que hay actualmente.
+git diff : se usa para ver cambios entre el ultimo commit con lo que hay actualmente.  
 git pull origin "nombrerama" : Trae los elementos que hacen falta de la rama en la que estoy y me actualiza esta rama
 git merge: Se usa para combinar todas las ramas
