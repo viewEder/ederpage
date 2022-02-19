@@ -1,0 +1,10 @@
+.wrapper {
+    width: 860px;
+    margin: 0 auto;
+}
+header {
+    width: 270px;
+    float: left;
+    position: fixed;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
